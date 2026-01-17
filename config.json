@@ -1,0 +1,13 @@
+{
+  "project_title": "Accessibility Audit Tracker",
+  "goal": "Track audit findings and surface urgent fixes.",
+  "entity_name": "finding",
+  "amount_label": "instances",
+  "score_label": "severity_score",
+  "categories": [
+    "contrast",
+    "keyboard",
+    "labels",
+    "structure"
+  ]
+}

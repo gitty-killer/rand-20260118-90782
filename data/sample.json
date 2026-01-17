@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "finding-01",
+      "name": "finding_01",
+      "category": "contrast",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "finding-02",
+      "name": "finding_02",
+      "category": "keyboard",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "finding-03",
+      "name": "finding_03",
+      "category": "labels",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "finding-04",
+      "name": "finding_04",
+      "category": "structure",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "finding-05",
+      "name": "finding_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "finding-06",
+      "name": "finding_06",
+      "category": "keyboard",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "finding-07",
+      "name": "finding_07",
+      "category": "labels",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "finding-08",
+      "name": "finding_08",
+      "category": "structure",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "finding-09",
+      "name": "finding_09",
+      "category": "contrast",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "finding-10",
+      "name": "finding_10",
+      "category": "keyboard",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "finding-11",
+      "name": "finding_11",
+      "category": "labels",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "finding-12",
+      "name": "finding_12",
+      "category": "structure",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "finding-12",
+    "issue_count": 1
+  }
+}
